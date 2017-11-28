@@ -1,6 +1,6 @@
 body {
   background-color: silver;
-  margin: 0;
+  margin: 0px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -14,12 +14,16 @@ body {
     text-align: center;
    }
 
+#content{
+  min-height: 100vh;
+}
 
 #headShot {
   width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   border-radius: 50%;
 }
 
@@ -29,6 +33,7 @@ body {
 
 .newDiv{
   background-color: white;
+  height: 300px;
 }
 
 h1 {
@@ -47,7 +52,7 @@ h1, h2, h3 {
 
 #intro {
   background-color: white;
-  padding: 20px;
+  padding: 30px 20px 50px;
 }
 
 p {
@@ -56,6 +61,19 @@ p {
   max-width: 60%;
   text-align: center;
   font-size: 20px;
+}
+
+#pic_12thman{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: .5%;
+  margin-bottom: 5.5%;
+}
+
+#pic_12thman:hover{
+  border: solid 1px white;
 }
 
 #pic_meow {
@@ -70,9 +88,6 @@ p {
 #pic_meow:hover{
   border: solid 1px white;
 }
-
-
-
 
 #pic_mid {
   width: 200px;
@@ -113,14 +128,17 @@ p {
 #projects{
   padding: 15px;
 }
+
 #skills {
   background-color: white;
   padding-top: 15px;
   padding-bottom: 15px;
+  min-height: 47vh;
+  margin-top: 5%;
 }
 
 .skilsContainer{
-  margin: auto;
+  margin: 5% auto;
   padding: 0;
 }
 
@@ -138,4 +156,17 @@ p {
 ul {
   list-style: none;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+  #pic_12thman{
+    margin-top: 7.5%;
+    margin-bottom: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .skilsContainer{
+    margin-top: 0;
+  }
 }
