@@ -1,172 +1,27 @@
-body {
-  background-color: silver;
-  margin: 0px;
-  font-family: 'Roboto', sans-serif;
+body{
+  /* background-color: green; */
 }
 
-#contact {
-  background-color: #1b1b1c;
-  color: white;
-  padding: 20px;
-}
-
-.contactIcons{
-    text-align: center;
-   }
-
-#content{
-  min-height: 100vh;
-}
-
-#headShot {
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  border-radius: 50%;
-}
-
-#headShot:hover{
-  border: solid 2px black;
-}
-
-.newDiv{
-  background-color: white;
-  height: 300px;
-}
-
-h1 {
-  background-color: #1b1b1c;
-  margin-top: 0;
+.navbar {
   margin-bottom: 0;
-  color: white;
-  padding: 20px;
+}
+/*
+#profile_img{
+  width: 30%;
+
+} */
+
+.container-fluid{
+  border: 1px solid red;
 }
 
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-weight: bold;
+.carousel-indicators .active{
+  background-color: blue;
+}
+.carousel-indicators li{
+  border: 1px solid black;
 }
 
-#intro {
-  background-color: white;
-  padding: 30px 20px 50px;
-}
-
-p {
-  margin: 0;
-  margin: auto;
-  max-width: 60%;
-  text-align: center;
-  font-size: 16px;
-}
-
-#pic_12thman{
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: .5%;
-  margin-bottom: 5.5%;
-}
-
-#pic_12thman:hover{
-  border: solid 1px white;
-}
-
-#pic_meow {
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5.5%;
-  margin-bottom: 5.5%;
-}
-
-#pic_meow:hover{
-  border: solid 1px white;
-}
-
-#pic_mid {
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 11%;
-  margin-bottom: 11%;
-}
-
-#pic_mid:hover{
-  border: solid 1px white;
-}
-
-#pic_tutti {
-  width: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: .3%;
-  margin-bottom: .3%;
-}
-
-#pic_tutti:hover{
-  border: solid 1px white;
-}
-
-#profilePic {
-  padding: 10px;
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  /*border: solid 1px red;*/
-}
-
-#projects{
-  padding: 15px;
-}
-
-#skills {
-  background-color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  min-height: 47vh;
-  margin-top: 5%;
-}
-
-.skilsContainer{
-  margin: 5% auto;
-  padding: 0;
-}
-
-.skillDes{
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-.skillRow {
-  padding: 10px;
-  text-align: center;
-  width: 20%;
-}
-
-ul {
-  list-style: none;
-  font-size: 24px;
-}
-
-@media only screen and (max-width: 991px) {
-  #pic_12thman{
-    margin-top: 7.5%;
-    margin-bottom: 2.5%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .skilsContainer{
-    margin-top: 0;
-  }
+.jumbotron {
+  margin-bottom: 0;
 }
