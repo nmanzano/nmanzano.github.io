@@ -1,67 +1,280 @@
-body{
+.aboutMe {
+  /* bottom: 10em; */
+  /* width: 70%; */
+  /* margin: auto; */
+}
+
+body {
   /* background-color: green; */
+  color: #333A56;
 }
 
-.navbar {
-  margin-bottom: 0;
+.btn, .btn-large {
+  background-color: #52658F
 }
 
-#contactMe{
-  text-align: center;
+.carousel-caption {
+  top: 0;
+  bottom: 132px;
 }
 
-.container-fluid{
-  border: 1px solid red;
-}
-
-.carousel-indicators .active{
+.carousel-indicators .active {
   background-color: silver;
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
   border: 1px solid black;
 }
 
-.jumbotron {
-  margin-bottom: 0;
+#contactMe {
+  text-align: center;
 }
-.emailForm{
-  background: #EEEEEE;
+
+.container {
+  width: 100%;
+  height: 100%;
 }
-.emailForm .jumbotron{
+
+.contact-info {
   width: 80%;
   margin: auto;
 }
 
-#email{
+.container-fluid {
+  /* border: 1px solid red; */
+  /* padding: 0; */
+}
+
+#email {
   padding-bottom: 12px;
   padding-top: 7px;
   font-size: 3rem;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
+.emailForm {
+  background: #F7F5E6;
 }
 
-.contact-info{
+.emailForm .jumbotron {
   width: 80%;
   margin: auto;
 }
 
-.material-icons{
-  size: 60%!important;
+.carouselRow {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #F7F5E6;
 }
 
 label {
-  font-size: 2rem!important;
+  font-size: 2rem !important;
   text-align: center;
 }
 
-#yourMessage{
+.material-icons {
+  size: 60% !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #333A56;
+}
+
+.page-footer {
+  background-color: #333A56;
+}
+
+/* #group_img{
+  width: 85%;
+  margin: auto;
+} */
+
+/* #project_img{
+  width: 50em;
+} */
+
+#skills_img {
+  width: 100%;
+  filter: blur(2px);
+  opacity: 0.5;
+}
+
+textarea.materialize-textarea {
+  font-size: 3rem;
+}
+
+#yourMessage {
   padding-bottom: 5px;
 }
 
+.input-field input[type=email]:not(.browser-default):focus:not([readonly])+label {
+  color: purple;
+}
 
- textarea.materialize-textarea {
-   font-size: 3rem;
- }
+@media only screen and (min-device-width: 100px) and (max-device-width: 599px) and (-webkit-min-device-pixel-ratio: 2) {
+  .aboutMe {
+    top: 2px;
+  }
+  .carousel-caption {
+    top: 20em;
+    bottom: 0;
+  }
+  #noni_img {
+    /* width: 100% !important; */
+    border: 1px solid red;
+    /* height: 100% !important; */
+    /* margin: auto; */
+  }
+  #group_img {
+    display: none
+  }
+}
+
+
+@media only screen and (min-width: 599px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  .carousel-caption {
+    /* top: 263px; */
+    /* top: 20em; */
+    /* bottom: 0; */
+  }
+  #group_img {
+    /* width: 85%; */
+    margin: 169px auto;
+  }
+  #noni_img {
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 152px;
+  }
+
+}
+
+@media only screen and (min-width: 726px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 147px;
+  }
+
+}
+
+@media only screen and (min-width: 790px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 119px;
+  }
+
+}
+
+@media only screen and (min-width: 820px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 8%;
+  }
+
+}
+
+@media only screen and (min-width: 913px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    margin-top: -3%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    /* width: 85%; */
+    /* margin-bottom: 2%; */
+  }
+  .carousel-caption {
+    /* top: 263px; */
+    top: 20em;
+    bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 1470px) {
+  .aboutMe {
+    bottom: 10em;
+  }
+  #group_img {
+    width: 80%;
+    margin: auto;
+  }
+  @media only screen and (min-width: 1517px) and (max-width: 1919px) {
+    .aboutMe {
+      bottom: 12em;
+    }
+    #group_img {
+      width: 75%;
+      margin: auto;
+    }
+  }
+  @media only screen and (min-width: 1920px) {
+    .aboutMe {
+      bottom: 12em;
+    }
+    #group_img {
+      width: 70%;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .aboutMe {
+      bottom: 12em;
+    }
+    #group_img {
+      width: 60%;
+      margin: auto;
+    }
+  }
