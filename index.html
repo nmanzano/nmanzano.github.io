@@ -35,16 +35,15 @@
             <li data-target="#slider" data-slide-to="2"></li>
           </ol>
 
-          <div class="carousel-inner aboutMe" role="listbox">
+          <div class="carousel-inner" role="listbox">
             <div class="item active">
-
               <a class="modal-trigger" href="#modal1">
-                <div class="noniImg">
-                  <img id="noni_img" src="./assets/noni.jpg" alt="noni">
+                <div class="carouselDiv">
+                  <img class="carouselImg" src="./assets/noni.jpg" alt="noni">
                 </div>
 
                 <div class="carousel-caption">
-                  <h1 id="aboutMe">
+                  <h1 class="carouselText">
                   	&lt About Me /&gt
                 </h1>
                 </div>
@@ -54,22 +53,26 @@
 
             <div class="item">
               <a class="modal-trigger" href="#modal2">
-              <img id="project_img" src="./assets/">
+                <div class="carouselDiv">
+                  <img class="carouselImg" src="./assets/projects.jpg">
+                </div>
               <div class="carousel-caption">
-                <h1>
-                  Projects
-                </h1>
+                <h1 class="carouselText">
+                  &lt Projects /&gt
+              </h1>
               </div>
             </a>
             </div>
 
             <div class="item">
               <a class="modal-trigger" href="#modal4">
-              <img id="skills_img" src="./assets/projects.gif">
+                <div class="carouselDiv">
+                  <img class="carouselImg" src="./assets/skills.jpg">
+                </div>
               <div class="carousel-caption">
-                <h1>
-                  Skills
-                </h1>
+                <h1 class="carouselText">
+                  &lt Skills /&gt
+              </h1>
               </div>
             </a>
             </div>
@@ -170,26 +173,38 @@
   </div>
 
 
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="white-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="white-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="white-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="white-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="white-text text-lighten-3" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contactIcons col-xs-6 col-sm-3">
+            <a href="https://linkedin.com/in/noni-manzano" target="_blank">
+             <i class="fa fa-linkedin-square btn" style="font-size:48px;color:white"></i>
+           </a>
+            <div class="caption center-block">LinkedIn</div>
+          </div>
 
-  </footer>
+          <div class="contactIcons col-xs-6 col-sm-3">
+            <a href="https://github.com/nmanzano" target="_blank">
+             <i class="fa fa-github btn" style="font-size:48px;color:white"></i>
+           </a>
+            <div class="caption center-block">GitHub</div>
+          </div>
+
+          <div class="contactIcons col-xs-6 col-sm-3">
+            <div id="copyButton" data-clipboard-text="contact@noni.tech">
+              <i class="glyphicon glyphicon-envelope btn" style="font-size:34px;color:white"></i>
+            </div>
+            <div class="caption center-block">contact@noni.tech</div>
+          </div>
+
+          <div class="contactIcons col-xs-6 col-sm-3">
+            <a href="tel:+1-929-367-6664">
+           <i class="glyphicon glyphicon-earphone btn" style="font-size:34px;color:white"></i>
+         </a>
+            <div class="caption center-block">(929)-367-NONI</div>
+          </div>
+        </div>
+    </div></footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
