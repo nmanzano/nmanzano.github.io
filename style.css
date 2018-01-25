@@ -13,8 +13,31 @@ body {
   background-color: #52658F
 }
 
-.carouselRow {
-  margin-bottom: 0;
+.carousel-caption {
+  top: 9%;
+  width: 50%;
+  height: 100px;
+  margin: auto;
+  border: 0;
+  padding: 0;
+}
+
+.carouselDiv {
+  width: 50%;
+  margin: auto;
+}
+
+.carouselImg {
+  width: 55%;
+  height: 390px;
+  border-radius: 50%;
+  margin: 5px auto;
+  margin-left: 50px;
+  border: 1px solid white;
+}
+
+.carousel-indicators {
+  left: 49%;
 }
 
 .carousel-indicators .active {
@@ -26,8 +49,8 @@ body {
   border: 1px solid white;
 }
 
-.carousel-indicators {
-  left: 49%;
+.carouselRow {
+  margin-bottom: 0;
 }
 
 #contactMe {
@@ -104,28 +127,13 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   color: #333A56;
 }
 
-.carouselDiv {
-  width: 50%;
-  margin: auto;
-}
-
-.carouselImg {
-  width: 50%;
-  height: 390px;
-  border-radius: 50%;
-  margin: 5px auto;
-  margin-left: 50px;
+.test3{
   border: 1px solid white;
-
+  margin: 10px;
+  height: 10%
 }
-
-.carousel-caption {
-  top: 9%;
-  width: 50%;
-  height: 100px;
-  margin: auto;
-  border: 0;
-  padding: 0;
+.test4{
+  margin: 10px;
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 599px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -246,5 +254,29 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     border-radius: 50%;
     margin-left: 15%;
     margin-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 1010px) {
+  .carouselText {
+    font-size: 47px;
+    width: 53%;
+    /* border: 1px solid; */
+  }
+  .carousel-caption {
+    /* border: 1px solid; */
+    width: 67%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .carouselText {
+    font-size: 47px;
+    width: 65%;
+    /* border: 1px solid; */
+  }
+  .carousel-caption {
+    /* border: 1px solid; */
+    width: 70%;
   }
 }
