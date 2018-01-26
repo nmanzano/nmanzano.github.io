@@ -143,6 +143,20 @@ label {
   top: -15px;
 }
 
+.midPointGif{
+  width: 45%;
+  border: 5px solid #52658F;
+}
+
+.midPointGif:hover{
+  position:relative;
+  top:-13px;
+  width: 100%;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #333A56;
@@ -155,6 +169,21 @@ label {
 .projectDiv {
   height: 30%;
   margin-top: 5%;
+}
+
+.rememberMeowGif{
+  width: 30%;
+  border: 5px solid #52658F;
+}
+
+.rememberMeowGif:hover{
+  position:relative;
+  top:-10px;
+  width: 70%;
+  left: 15%;
+  height:auto;
+  display:block;
+  z-index:999;
 }
 
 .remember_meow {
@@ -179,10 +208,6 @@ label {
   font-size: 150%;
 }
 
-.test1 {
-  width: 40px;
-}
-
 .texasAM {
   width: 30%;
   position: relative;
@@ -195,7 +220,7 @@ label {
 }
 
 .texasAMFrames1{
-  width: 200px;
+  width: 64%;
   border: 5px solid #52658F;
 }
 .texasAMFrames1:hover{
@@ -210,7 +235,7 @@ label {
 }
 
 .texasAMFrames2{
-  width: 200px;
+  width: 64%;
   border: 5px solid #52658F;
 }
 
@@ -226,14 +251,14 @@ label {
 }
 
 .texasAMFrames3{
-  width: 200px;
+  width: 64%;
   border: 5px solid #52658F;
 }
 
 .texasAMFrames3:hover{
   position:relative;
   top:-25px;
-  left:-200%;
+  left:-204%;
   width: 300%;
   height:auto;
   display:block;
@@ -259,6 +284,22 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 .tutti:hover {
   top: -15px;
 }
+
+.tuttiGif{
+  width: 18%;
+  border: 5px solid #52658F;
+}
+
+.tuttiGif:hover{
+  position:relative;
+  top:-13px;
+  left: 30%;
+  width: 40%;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
 .webDevSkills {
   margin: 4% 0 3% 5%;
   border: 1px solid #303C55;
@@ -280,6 +321,9 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   padding-bottom: 5px;
 }
 
+.texasFrames{
+  margin-top: 10px;
+}
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 599px) and (-webkit-min-device-pixel-ratio: 2) {
   .carouselImg {
@@ -317,6 +361,40 @@ textarea.materialize-textarea:focus:not([readonly])+label {
   .projectDiv {
     margin-bottom: 1%;
   }
+}
+
+@media only screen and (max-width: 601px) {
+
+  .texasAMFrames1:hover{
+    position:relative;
+    top:-1px;
+    left: -10%;
+    width: 90%;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
+
+  .texasAMFrames2:hover{
+    position:relative;
+    top:-1px;
+    left: 4%;
+    width: 90%;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
+
+  .texasAMFrames3:hover{
+    position:relative;
+    top:-1px;
+    left: 4%;
+    width: 90%;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
+
 }
 
 @media only screen and (max-width: 1365px) {
