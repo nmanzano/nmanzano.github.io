@@ -4,7 +4,7 @@ body {
 }
 
 .btn, .btn-large {
-  background-color: #52658F
+  background-color: #52658F;
 }
 
 .carousel-caption {
@@ -54,8 +54,18 @@ body {
   float: right;
 }
 
+.contactBtn {
+  border: 1px solid white;
+  margin: 10px;
+  height: 10%
+}
+
 #contactMe {
   text-align: center;
+}
+
+.contactTitle {
+  margin: 10px;
 }
 
 .container {
@@ -83,6 +93,30 @@ body {
   margin: auto;
 }
 
+#header {
+  font-size: 200% !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-field input[type=email]:not(.browser-default):focus:not([readonly])+label {
+  color: #333A56;
+}
+
+.itSkills {
+  margin: 4% 4%;
+  border: 1px solid #303C55;
+  background-color: #303C55;
+  text-align: center;
+}
+
+.itSkillsTitle {
+  color: white;
+  margin-top: 1% !important;
+}
+
 .jumbotron {
   margin-bottom: 0;
   background-color: #F7F5E6;
@@ -95,6 +129,18 @@ label {
 
 .material-icons {
   size: 60% !important;
+}
+
+.midpoint {
+  width: 98%;
+  margin-top: 3%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.midpoint:hover {
+  top: -15px;
 }
 
 .navbar {
@@ -111,20 +157,30 @@ label {
   margin-top: 5%;
 }
 
-.test1 {
-  width: 40px;
+.remember_meow {
+  width: 85%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
 }
 
-.test100 {}
-
-h1 {
-  text-align: center;
+.remember_meow:hover {
+  top: -15px;
 }
 
 #skills_img {
   width: 80%;
   height: 400px;
   margin: auto;
+}
+
+.techSKills {
+  list-style-type: none;
+  font-size: 150%;
+}
+
+.test1 {
+  width: 40px;
 }
 
 .texasAM {
@@ -135,61 +191,74 @@ h1 {
 }
 
 .texasAM:hover {
-  top: -10px;
+  top: -15px;
 }
 
-.remember_meow {
-  width: 85%;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
+.texasAMFrames1{
+  width: 200px;
+  border: 5px solid #52658F;
+}
+.texasAMFrames1:hover{
+  position:relative;
+  top:-25px;
+  left: -10%;
+  width: 300%;
+  height:auto;
+  display:block;
+  z-index:999;
+  margin-left: 15%;
 }
 
-.remember_meow:hover {
-  top: -10px;
+.texasAMFrames2{
+  width: 200px;
+  border: 5px solid #52658F;
 }
 
-.midpoint {
-  width: 98%;
-  margin-top: 3%;
-  position: relative;
-  top: 0;
-  transition: top ease 0.5s;
+.texasAMFrames2:hover{
+  position:relative;
+  top:-25px;
+  left:-100%;
+  width: 300%;
+  height:auto;
+  display:block;
+  z-index:999;
+  margin-right: 15%;
 }
 
-.midpoint:hover {
-  top: -10px;
+.texasAMFrames3{
+  width: 200px;
+  border: 5px solid #52658F;
+}
+
+.texasAMFrames3:hover{
+  position:relative;
+  top:-25px;
+  left:-200%;
+  width: 300%;
+  height:auto;
+  display:block;
+  z-index:999;
+  margin-right: 15%;
+}
+
+textarea.materialize-textarea {
+  font-size: 3rem;
+}
+
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #333A56;
 }
 
 .tutti {
-  width: 47%;
+  width: 50%;
   position: relative;
   top: 0;
   transition: top ease 0.5s;
 }
 
-.webSkills {
-  list-style-type: none;
-  font-size: 150%;
+.tutti:hover {
+  top: -15px;
 }
-
-.techSKills {
-  list-style-type: none;
-  font-size: 150%;
-}
-
-.itSkills {
-  margin: 4% 4%;
-  border: 1px solid #303C55;
-  background-color: #303C55;
-  text-align: center;
-}
-
-.itSkillsTitle {
-  color: white;
-  margin-top: 1% !important;
-}
-
 .webDevSkills {
   margin: 4% 0 3% 5%;
   border: 1px solid #303C55;
@@ -197,44 +266,20 @@ h1 {
   width: 90%;
 }
 
+.webSkills {
+  list-style-type: none;
+  font-size: 150%;
+}
+
 .webDevSkillsTitle {
   color: white;
   margin-top: 1% !important;
-}
-
-#header {
-  font-size: 200% !important;
-}
-
-.tutti:hover {
-  top: -10px;
-}
-
-textarea.materialize-textarea {
-  font-size: 3rem;
 }
 
 #yourMessage {
   padding-bottom: 5px;
 }
 
-.input-field input[type=email]:not(.browser-default):focus:not([readonly])+label {
-  color: #333A56;
-}
-
-textarea.materialize-textarea:focus:not([readonly])+label {
-  color: #333A56;
-}
-
-.test3 {
-  border: 1px solid white;
-  margin: 10px;
-  height: 10%
-}
-
-.test4 {
-  margin: 10px;
-}
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 599px) and (-webkit-min-device-pixel-ratio: 2) {
   .carouselImg {
@@ -250,7 +295,6 @@ textarea.materialize-textarea:focus:not([readonly])+label {
     margin: auto;
   }
   .carouselText {
-    color: green;
     font-size: 30px;
     text-shadow: 2px 2px 4px #000000;
     width: 100% !important;
